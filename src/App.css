@@ -24,8 +24,12 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
+  color: #ff0000;
+  display: inline-flex;
 }
 
 @keyframes App-logo-spin {
