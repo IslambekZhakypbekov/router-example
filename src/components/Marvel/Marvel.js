@@ -3,7 +3,7 @@ import groot from "../../images/groot.jfif"
 import deadpool from "../../images/deadpool.jfif"
 import spyder from "../../images/spyder.jfif"
 import blackspyder from "../../images/blackspyder.jfif"
-import antman from "../../images/antman.jfif"
+import antman from "../../images/ant.jpg"
 
 
 
