@@ -15,7 +15,7 @@ function App() {
 		<nav className="nav nav-animated">     	
 				<Link to="/" className="nav-link">Home</Link>
      			<Link to="/marvel"   className="nav-link">Marvel</Link>
-      			<Link to="/contacts"   className="nav-link">DS comics</Link>
+      			<Link to="/dccomics"   className="nav-link">DS comics</Link>
 				<Link to="/news"   className="nav-link">News</Link>
 	
      			
@@ -24,7 +24,7 @@ function App() {
 
 				<Route path="/" component={Home}exact/>
 				<Route path="/marvel" component={Marvel} />
-     			<Route path="/contacts" component={Contacts} />
+     			<Route path="/dccomics" component={Contacts} />
 				<Route path="/news" component={News} />
 
 

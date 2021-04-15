@@ -19,12 +19,12 @@ const Contacts = () => {
 <img src={superman} alt="Superman"/>
 
 <div className={classes.heading}>Superman</div>
-  <p>Superman is a fictional superhero, who first appeared in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in the comic book Action Comics #1 (cover-dated June 1938 and published April 18, 1938).[1] Superman has been adapted to a number of other media which includes radio serials, novels, movies, television shows and theatre.</p>
+  <p>Superman is a fictional superhero, who first appeared in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in the comic book Action Comics #1 (cover-dated June 1938 and published April 18, 1938). Superman has been adapted to a number of other media which includes radio serials, novels, movies, television shows and theatre.</p>
 </div>
 <div className={classes.Wolverine}>
 <img src={ww} alt="Wonder Women"/>  <div className={classes.heading}>Wonder Woman
 </div>
-  <p>Wonder Woman is a fictional superheroine appearing in American comic books published by DC Comics.[3] The character is a founding member of the Justice League. The character first appeared in All Star Comics #8 in October 1941[1] with her first feature in Sensation Comics #1 in January 1942. The Wonder Woman title has been published by DC Comics almost continuously except for a brief hiatus in 1986.[4] In her homeland, the island nation of Themyscira, her official title is Princess Diana of Themyscira. When blending into the society outside of her homeland, she sometimes adopts her civilian identity Diana Prince.</p>
+  <p>Wonder Woman is a fictional superheroine appearing in American comic books published by DC Comics.The character is a founding member of the Justice League. The character first appeared in All Star Comics #8 in October 1941 with her first feature in Sensation Comics #1 in January 1942. The Wonder Woman title has been published by DC Comics almost continuously except for a brief hiatus in 1986. In her homeland, the island nation of Themyscira, her official title is Princess Diana of Themyscira. When blending into the society outside of her homeland, she sometimes adopts her civilian identity Diana Prince.</p>
   </div>
 <div className={classes.spider_man}>
 <img src={gl} alt="Green Lantern"/>  <div className={classes.heading}>Green Lantern</div>
@@ -35,7 +35,7 @@ The first Green Lantern character, Alan Scott, was created in 1940 by Martin Nod
   <div className={classes.ant_man}>
 <img src={cyborg} alt="Cyborg"/>    
 <div className={classes.heading}>Cyborg</div>
-    <p>Cyborg (Victor Stone) is a fictional superhero appearing in American comic books published by DC Comics. The character was created by writer Marv Wolfman and artist George Pérez and first appears in a special insert in DC Comics Presents #26 (October 1980).[1] Originally known as a member of the Teen Titans,[2] Cyborg was established as a founding member of the Justice League in DC's 2011 reboot of its comic book titles.
+    <p>Cyborg (Victor Stone) is a fictional superhero appearing in American comic books published by DC Comics. The character was created by writer Marv Wolfman and artist George Pérez and first appears in a special insert in DC Comics Presents #26 (October 1980). Originally known as a member of the Teen Titans, Cyborg was established as a founding member of the Justice League in DC's 2011 reboot of its comic book titles.
 
 Lee Thompson Young portrayed Cyborg in the television series Smallville. Ray Fisher portrays the character in the DC Extended Universe films Batman v Superman: Dawn of Justice (2016), Justice League (2017) and Zack Snyder's Justice League (2021). Joivan Wade also portrays Cyborg in the Doom Patrol television series on DC Universe and HBO Max.</p>
   </div>
