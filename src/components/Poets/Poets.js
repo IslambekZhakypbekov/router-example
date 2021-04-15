@@ -1,9 +1,8 @@
-import classes from "./About.module.css";
+import classes from "./Poets.module.css";
 
 const About = () => {
     return ( <div className={classes.About}>
-        <h1>About</h1>
-        <p>Lorem ipsum dolor</p>
+           
     </div> );
 }
  
