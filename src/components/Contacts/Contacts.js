@@ -5,6 +5,8 @@ import ww from "../../images/ww.jpg"
 import gl from "../../images/gl.jpg"
 import cyborg from "../../images/cyborg.jpg"
 import flash from "../../images/flash.jpg"
+import joker from "../../images/joker.jpg"
+
 
 
 const Contacts = () => {
@@ -47,6 +49,11 @@ Lee Thompson Young portrayed Cyborg in the television series Smallville. Ray Fis
                 <p>The Flash (or simply Flash) is the name of several superheroes appearing in American comic books published by DC Comics. Created by writer Gardner Fox and artist Harry Lampert, the original Flash first appeared in Flash Comics #1 (cover date January 1940/release month November 1939).Nicknamed the "Scarlet Speedster", all incarnations of the Flash possess "super speed", which includes the ability to run, move, and think extremely fast, use superhuman reflexes, and seemingly violate certain laws of physics.
 
 Thus far, at least four different characters—each of whom somehow gained the power of "the speed force"—have assumed the mantle of the Flash in DC's history: college athlete Jay Garrick (1940–1951, 1961–2011, 2017–present), forensic scientist Barry Allen (1956–1985, 2008–present), Barry's nephew Wally West (1986–2011, 2016–present), and Barry's grandson Bart Allen (2006–2007). Each incarnation of the Flash has been a key member of at least one of DC's premier teams: the Justice Society of America, the Justice League, and the Teen Titans.</p>
+            </div>
+            <div className={classes.joker}>
+                <img src={joker} alt="Joker" />
+                <div className={classes.heading}>Joker</div>
+                <p>The Joker is a supervillain who appears in American comic books published by DC Comics. The Joker was created by Bill Finger, Bob Kane, and Jerry Robinson and first appeared in the debut issue of the comic book Batman on April 25, 1940. Credit for the Joker's creation is disputed; Kane and Robinson claimed responsibility for the Joker's design while acknowledging Finger's writing contribution. Although the Joker was planned to be killed off during his initial appearance, he was spared by editorial intervention, allowing the character to endure as the archenemy of the superhero Batman.</p>
             </div>
         </div>
     </div>);
