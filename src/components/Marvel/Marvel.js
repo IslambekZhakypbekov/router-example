@@ -5,6 +5,8 @@ import spyder from "../../images/spyder.jfif"
 import blackspyder from "../../images/blackspyder.jfif"
 import antman from "../../images/ant.jpg"
 import hulk from "../../images/hulk.jpg"
+import ds from "../../images/ds.jpg"
+
 
 
 
@@ -49,6 +51,11 @@ const About = () => {
         <img src={hulk} alt="Hulk" />
         <div className={classes.heading}>Hulk</div>
         <p>The Hulk is a fictional superhero appearing in publications by the American publisher Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in the debut issue of The Incredible Hulk (May 1962). In his comic book appearances, the character is both the Hulk, a green-skinned, hulking and muscular humanoid possessing a vast degree of physical strength, and his alter ego Dr. Robert Bruce Banner, a physically weak, socially withdrawn, and emotionally reserved physicist. The two exist as independent dissociative personalities, and resent each other.</p>
+      </div>
+      <div className={classes.ds}>
+        <img src={ds} alt="Doctor Strange" />
+        <div className={classes.heading}>Doctor Stephen Strange</div>
+        <p>Doctor Stephen Strange is a fictional character appearing in American comic books published by Marvel Comics. Created by Steve Ditko, the character first appeared in Strange Tales #110 (cover-dated July 1963). Doctor Strange serves as the Sorcerer Supreme, the primary protector of Earth against magical and mystical threats. Inspired by stories of black magic and Chandu the Magician, Strange was created during the Silver Age of Comic Books to bring a different kind of character and themes of mysticism to Marvel Comics.</p>
       </div>
      
 
