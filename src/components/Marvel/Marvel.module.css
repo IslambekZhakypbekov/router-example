@@ -22,7 +22,7 @@ body{
     margin: 15px;
   }
   /*for displaying as card*/
-  .groot, .deadpool, .Wolverine, .spider_man, .ant_man, .hulk{
+  .groot, .deadpool, .Wolverine, .spider_man, .ant_man, .hulk, .ds{
     max-width: 350px;
     height: auto;
     border-radius: 10px;
