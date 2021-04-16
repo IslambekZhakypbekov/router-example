@@ -15,7 +15,7 @@ function App() {
 		<nav className="nav nav-animated">     	
 				<Link to="/" className="nav-link">Home</Link>
      			<Link to="/marvel"   className="nav-link">Marvel</Link>
-      			<Link to="/dccomics"   className="nav-link">DS comics</Link>
+      			<Link to="/dccomics"   className="nav-link">DC comics</Link>
 				<Link to="/news"   className="nav-link">News</Link>
 	
      			
