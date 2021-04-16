@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     background: linear-gradient(to bottom right, #B71C1C, #212121);
+    background-size: 100%;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
@@ -21,7 +22,7 @@ body{
     margin: 15px;
   }
   /*for displaying as card*/
-  .groot, .deadpool, .Wolverine, .spider_man, .ant_man{
+  .groot, .deadpool, .Wolverine, .spider_man, .ant_man, .hulk, .flash{
     max-width: 350px;
     height: auto;
     border-radius: 10px;
@@ -29,6 +30,7 @@ body{
     box-shadow: 0 40px 80px 10px black;
     margin: 10px;
     background: linear-gradient(to bottom right, #B71C1C, #212121);
+    background-size: 100%;
     }
   /*heros description*/
   p{
@@ -51,4 +53,3 @@ body{
     padding: 5px;
     margin: 10px;
   }
-  
