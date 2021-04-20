@@ -7,7 +7,10 @@ import antman from "../../images/ant.jpg"
 import hulk from "../../images/hulk.jpg"
 import ds from "../../images/ds.jpg"
 
+import Groot from "./components/Groot/Groot"
 
+import { Link } from 'react-router-dom'
+import { Route } from 'react-router'
 
 
 
@@ -21,8 +24,9 @@ const About = () => {
       <div className={classes.groot}>
         <img src={groot} alt="Groot" />
         <div className={classes.heading}>
-          "I am Groot..."
-          </div>
+          <Link to="/groot">I'm Groot...</Link>
+          <Route path="/groot" component={Groot} exact></Route>
+        </div>
         <p>The last surviving member of a tree-like alien race, Groot is perhaps one of the most unusual beings in all the cosmos. Though calm and quiet in most instances, he is known to unleash his tremendous strength on any enemy foolish enough to threaten his allies, particularly his long- time partner in crime, Rocket. Though he can only vocalize using the phrase, “I am Groot,” the gentle giant’s friends are nevertheless able to understand his exact meaning through his subtle inflections.</p>
       </div>
 
