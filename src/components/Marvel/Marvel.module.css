@@ -8,7 +8,7 @@ body{
   }
   /*styling heading*/
   .header{
-    color: #FAFAFA;
+    color: #000000;
     font-size: 60px;
     text-align: center;
     font-weight: bold;
@@ -53,3 +53,42 @@ body{
     padding: 5px;
     margin: 10px;
   }
+  .link {
+    padding: 0 1rem;
+    position: relative;
+    margin-right: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  .link:last-child {
+    margin-right: 0;
+  }
+  .link {
+  
+    padding-top: 0.1rem;
+    border-top: 0.125rem solid transparent;
+    border-bottom: 0.125rem solid transparent;
+  }
+  
+  
+   .link::after {
+    display: block;
+    content: "";
+    width: 100%;
+    margin-top: 0rem;
+    height: 0.25rem;
+    border-bottom:  5px solid black;
+    transition: 0;
+    transform: rotateY(90deg);
+  }
+  
+  .link:hover::after {
+    color: white;
+    transform: rotateY(0deg);  
+    transition: 0.7s;
+  }
+
+  
